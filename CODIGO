@@ -1,0 +1,11 @@
+print('\n\t\t --- CONTADOR DE PAR --- \n')
+
+pares = 0 
+contador = 0  # Inicializa o contador
+
+while contador < 5:
+    numeros = int(input())  # Lê um número
+    if numeros % 2 == 0:  # Se o número for par
+        pares  += 1  # Incrementa 1
+    contador += 1  # Incrementa o contador
+print(f'A parece {pares} numeros pares ')
